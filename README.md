@@ -55,10 +55,10 @@ _All the files are run in a similar manner._
 ### Coding:
 - [x] Make private Github repository for easy group work
 - [x] Figure out which modules would help us the most
-- [] Data allocation (select datasets, write code to import data into best format to work with)
-- [] Make cool visuals
+- [ ] Data allocation (select datasets, write code to import data into best format to work with)
+- [ ] Make cool visuals
 
 ### Presentation:
-- [] Visualize data, look for trends
-- [] Find best sections of data to focus on for the presentation
-- [] Make slides and allocate presentation sections to team members
+- [ ] Visualize data, look for trends
+- [ ] Find best sections of data to focus on for the presentation
+- [ ] Make slides and allocate presentation sections to team members
