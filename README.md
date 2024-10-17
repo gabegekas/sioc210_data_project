@@ -3,7 +3,7 @@ GitHub repository for code associated with our SIOC 210 data project
 
 ## File Descriptions:
 
-1. [test.py](insert link) - a test file
+1. [test.py](https://github.com/gabegekas/sioc210_data_project/blob/main/scripts/test.py) - a test file
 
 ## Getting Started
 
@@ -55,8 +55,10 @@ _All the files are run in a similar manner._
 ### Coding:
 - [x] Make private Github repository for easy group work
 - [x] Figure out which modules would help us the most
-- [X] Data allocation (select datasets, write code to import data into best format to work with)
+- [] Data allocation (select datasets, write code to import data into best format to work with)
+- [] Make cool visuals
 
 ### Presentation:
-- [x] Visualize data, look for trends
-- [x] Find best sections of data to focus on for the presentation
+- [] Visualize data, look for trends
+- [] Find best sections of data to focus on for the presentation
+- [] Make slides and allocate presentation sections to team members
