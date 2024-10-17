@@ -10,7 +10,7 @@ GitHub repository for code associated with our SIOC 210 data project
 4. [correlation_heatmap.py](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/correlation_heatmap.py) - correlation heatmap of ocean physical properties and parameters
 5. [temp_vs_depth.py](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/temp_vs_depth.py) - normalized temp vs depth plots
 6. [temp_vs_abs(latitude).py](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/temp_vs_abs(latitude).py) - normalized temp vs latitude plots
-7. [temp_vs_time_CA](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/temp_vs_time_CA.py) - CA coast temp vs time plots
+7. [temp_vs_time_CA.py](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/temp_vs_time_CA.py) - CA coast temp vs time plots
 8. [sal_vs_temp.py](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/sal_vs_temp.py) - salinity vs temperature plots
 9. [temp_vs_latitude.py](https://github.com/gabegekas/sioc210_data_project/blob/main/examples/temp_vs_latitude.py) - plots the sea surface temperature vs the latitude
 
