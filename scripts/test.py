@@ -11,7 +11,7 @@ def plot_temp_vs_depth():
     except:
         print("Importing data...")
         t0 = time.time()
-        ArgoSet = argopy.DataFetcher().region([80, 95, 5, 20, 0, 2000, '2020-01', '2020-02']) # Bay of Bengal
+        ArgoSet = argopy.DataFetcher().region([80, 95, 5, 20, 0, 2000, '2023-10', '2024-10']) # Bay of Bengal
         print("Time to create DataFetcher variable : ", time.time() - t0)
         ds = ArgoSet.data.argo.point2profile().to_dataframe()
         print("Time to get data from DataFetcher : ", time.time() - t0)
@@ -48,6 +48,6 @@ if __name__ == "__main__":
         try:
             flag = plot_temp_vs_depth()
         except:
-            print("Argo Server Timeout Error : retrying")
+            print("Possible Argo Server Timeout Error : retrying")
             print("To exit, press ctrl+c 2x")
             time.sleep(2)
