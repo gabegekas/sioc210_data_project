@@ -64,7 +64,7 @@ _All the files are run in a similar manner._
 ### Purpose:
 - Examine Argo data from the Bay of Bengal, from Oct. 1st 2023 to Oct. 1 2024
 - Look for seasonal changes in the upper layer, which has a hot, low-salinity barrier
-- Compare with data from Lenain's lab and papers like [this one] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL082078)
+- Compare with data from Lenain's lab and papers like this one: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL082078
 
 ### Coding:
 - [x] Make private Github repository for easy group work
