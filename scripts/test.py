@@ -11,7 +11,9 @@ def plot_temp_vs_depth():
     except:
         print("Importing data...")
         t0 = time.time()
-        ArgoSet = argopy.DataFetcher().region([80, 95, 5, 20, 0, 2000, '2023-10', '2024-10']) # Bay of Bengal
+        lat_range = [5, 20]     # Latitude: 5°N to 20°N
+        lon_range = [80, 95]   # Longitude: 80°E to 95°E
+        ArgoSet = argopy.DataFetcher().region([lon_range[0], lon_range[1], lat_range[0], lat_range[1], 0, 2000, '2023-10', '2024-10']) # Bay of Bengal
         print("Time to create DataFetcher variable : ", time.time() - t0)
         ds = ArgoSet.data.argo.point2profile().to_dataframe()
         print("Time to get data from DataFetcher : ", time.time() - t0)
